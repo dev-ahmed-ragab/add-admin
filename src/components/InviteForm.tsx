@@ -23,7 +23,7 @@ const InviteForm: React.FC<InviteFormProps> = ({
 
     await emailjs.sendForm(
       'service_3miwvgq',
-      'template_iqxp25s',
+      'template_k6fqxwl',
       e.target as HTMLFormElement,
       '8LpDojmKWWNq8LUNo'
     );
